@@ -427,6 +427,17 @@ const botanas = {
         'description':'',
         'flavors':[],
         'table':[
+        ]},
+    ),
+};
+const gonzalitas = {
+    'product':'gonzalitas',
+    'description':'',
+    'content':Array(
+        {'subtitle':'',
+        'description':'',
+        'flavors':[],
+        'table':[
             {'option':'Bowl de 5 topping',             'price_unique_bullet':50 },            
             {'option':'Palomitas',                     'price_unique_bullet':50 },            
             {'option':'Nachos',                        'price_unique_bullet':50 },
@@ -469,10 +480,17 @@ products_iterable.forEach(product => {
     html_description.innerText = product.description;
 });
 
+/* Topping Title */
+const html_title_topping = document.getElementById(`title_topp`);
+    html_title_topping.innerText = topping.product;
+
+/* Gonzalitas Title */
+const html_title_gonzalitas = document.getElementById(`title_gonzalitas`);
+    html_title_gonzalitas.innerText = gonzalitas.product;
+
 
 
 /* Topping list creation */
-/*
 html_topping_list_container = document.getElementById('topp-overlay-text');
 topping.content.forEach(block => {
     const topp_subtitle = document.createElement('h3');
@@ -488,7 +506,7 @@ topping.content.forEach(block => {
     html_topping_list_container.appendChild(topp_list);
     });
 });
-*/
+
 
 
 
