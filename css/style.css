@@ -28,7 +28,7 @@ body {
 
 .swiper-slide {
     position: relative;
-    width: 320px;
+    width: 210px;
     aspect-ratio: 3 / 4;
     border-radius: 14px;
     border: 1px solid rgba(177, 177, 177, 0.4);
