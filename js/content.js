@@ -427,17 +427,6 @@ const botanas = {
         'description':'',
         'flavors':[],
         'table':[
-        ]},
-    ),
-};
-const gonzalitas = {
-    'product':'gonzalitas',
-    'description':'',
-    'content':Array(
-        {'subtitle':'',
-        'description':'',
-        'flavors':[],
-        'table':[
             {'option':'Bowl de 5 topping',             'price_unique_bullet':50 },            
             {'option':'Palomitas',                     'price_unique_bullet':50 },            
             {'option':'Nachos',                        'price_unique_bullet':50 },
@@ -451,6 +440,18 @@ const gonzalitas = {
             {'option':'Dedos de queso (8 pzas)',       'price_unique_bullet':100},
             {'option':'Camaron para pelar (Ch)',       'price_unique_bullet':120},
             {'option':'Camaron para pelar (Med)',      'price_unique_bullet':220},
+        ]},
+    ),
+};
+const gonzalitas = {
+    'product':'gonzalitas',
+    'description':'',
+    'content':Array(
+        {'subtitle':'',
+        'description':'',
+        'flavors':[],
+        'table':[
+
         ]},
     ),
 };
